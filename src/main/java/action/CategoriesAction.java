@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class CategoriesAction {
 
-    private List<dal.Entity.Categories> categoriesList;
+    private List<Categories> categoriesList;
 
     public CategoriesAction() {
         CategoriesJpaController categoriesJpaController = JpaUtil.getCategoriesJpaController();
